@@ -19,60 +19,9 @@ A modern web-based sports management system built with Django for organizing tea
 - Python 3.8+
 - pip
 
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repository-url>
-   cd sports-management-system
-   ```
 
-2. **Create virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   ```
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up environment variables**
-   Create a `.env` file:
-   ```env
-   SECRET_KEY=your-secret-key-here
-   DEBUG=True
-   CONTACT_EMAIL=admin@yourdomain.com
-   ADMIN_EMAIL=admin@yourdomain.com
-   ```
-
-5. **Run migrations**
-   ```bash
-   python manage.py migrate
-   ```
-
-6. **Create superuser**
-   ```bash
-   python manage.py createsuperuser
-   ```
-
-7. **Start the server**
-   ```bash
-   python manage.py runserver
-   ```
-
-8. **Access the application**
-   - Main app: http://localhost:8000
-   - Admin panel: http://localhost:8000/admin
-
-## Screenshots
-
-![Dashboard](screenshots/1.png)
-![Team Management](screenshots/2.png)
-![Competitions](screenshots/3.png)
-![Calendar](screenshots/4.png)
-![Analytics](screenshots/5.png)
 
 ## Technology Stack
 
@@ -125,24 +74,6 @@ sports-management-system/
 2. Join teams and participate in events
 3. View your performance statistics
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support and questions:
-- Create an issue in the GitHub repository
-- Check the documentation in the `/docs` folder
-
----
-
-**Built with ❤️ for the sports community**
